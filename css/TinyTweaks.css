@@ -1,0 +1,749 @@
+/* METODOLOGIA BEM */
+/* BODY */
+body{
+    margin: 0%;
+    padding: 0%;
+}
+p{
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+}
+/* MODIFICADOR */
+body{
+    border-left: 5px solid black;
+    font-family: 'Road Rage', cursive;
+}
+/* VISTA GENERAL DE PC 1024px */
+@media screen and (min-width: 1024px) {
+    /* HEADER */
+header{
+    width: 100%;
+}
+/* ELEMENTOS */
+/* NAV */
+header nav{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+/* ELEMENTOS */
+header nav img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+/* NAV + SECTION */
+header nav + section{
+    width: 100%;
+    padding: 3.5rem 0;
+}
+/* ELEMENTOS */
+header nav + section label{
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+ 
+}
+header nav + section p{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+header nav + section p b{
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+}
+/* MAIN */
+main{
+    width: 100%;
+    height: 90vh;
+    padding-left: 1rem;
+    background-image: url(../img/fashion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+/* ELEMENTOS */
+main > label{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+main p label{
+    color: white;
+    font-size: 8rem;
+    font-family: 'Road Rage', cursive;
+}
+/* BOTON */
+main div a{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.459);
+    font-size: 1.5rem;
+}
+/* MODIFICADOR */
+main div a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+/* ULTIMO SECTION */
+main + section{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    padding: 2rem;
+    display: none;
+}
+/* ELEMENTOS */
+/* ARTICLE */
+main + section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 2rem;
+}
+/* ELEMENTOS */ 
+main + section article label{
+    font-size: 3rem;
+}
+main + section article img{
+    margin: 2rem 0;
+}
+main + section article section{
+    width: 800px;
+}
+main + section article p{
+    text-align:justify;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+main + section article section p:last-child{
+    margin-bottom: 3rem;
+}
+}
+/* VISTA GENERAL DE PC */
+@media screen and (min-width: 901px) {
+    /* HEADER */
+header{
+    width: 100%;
+}
+/* ELEMENTOS */
+/* NAV */
+header nav{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+/* ELEMENTOS */
+header nav img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+/* NAV + SECTION */
+header nav + section{
+    width: 100%;
+    padding: 3.5rem 0;
+}
+/* ELEMENTOS */
+header nav + section label{
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+ 
+}
+header nav + section p{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+header nav + section p b{
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+}
+/* MAIN */
+main{
+    width: 100%;
+    height: 90vh;
+    padding-left: 1rem;
+    background-image: url(../img/fashion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+/* ELEMENTOS */
+main > label{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+main p label{
+    color: white;
+    font-size: 8rem;
+    font-family: 'Road Rage', cursive;
+}
+/* BOTON */
+main div a{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.459);
+    font-size: 1.5rem;
+}
+/* MODIFICADOR */
+main div a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+/* ULTIMO SECTION */
+main + section{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    padding: 2rem;
+}
+/* ELEMENTOS */
+/* ARTICLE */
+main + section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 2rem;
+}
+/* ELEMENTOS */ 
+main + section article label{
+    font-size: 3rem;
+}
+main + section article img{
+    margin: 2rem 0;
+}
+main + section article section{
+    width: 800px;
+}
+main + section article p{
+    text-align:justify;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+main + section article section p:last-child{
+    margin-bottom: 3rem;
+}
+}
+/* CORRIGIENDO PUNTOS DE QUIEBRE 900PX */
+@media screen and (max-width: 900px) {
+    /* HEADER */
+header{
+    width: 100%;
+}
+/* ELEMENTOS */
+/* NAV */
+header nav{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+/* ELEMENTOS */
+header nav img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+/* NAV + SECTION */
+header nav + section{
+    width: 100%;
+    padding: 3.5rem 0;
+}
+/* ELEMENTOS */
+header nav + section label{
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+ 
+}
+header nav + section p{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+header nav + section p b{
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+}
+/* MAIN */
+main{
+    width: 100%;
+    height: 70vh;
+    padding-left: 1rem;
+    background-image: url(../img/fashion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+/* ELEMENTOS */
+main > label{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+main p label{
+    color: white;
+    font-size: 8rem;
+    font-family: 'Road Rage', cursive;
+}
+/* BOTON */
+main div a{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.459);
+    font-size: 1.5rem;
+}
+/* MODIFICADOR */
+main div a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+/* ULTIMO SECTION */
+main + section{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    padding: 2rem;
+}
+/* ELEMENTOS */
+/* ARTICLE */
+main + section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 2rem;
+}
+/* ELEMENTOS */ 
+main + section article label{
+    font-size: 3rem;
+}
+main + section article img{
+    margin: 2rem 0;
+    width: 500px;
+    height: 450px;
+}
+main + section article section{
+    width: 500px;
+}
+main + section article p{
+    text-align:justify;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+main + section article section p:last-child{
+    margin-bottom: 3rem;
+}
+}
+/* CORRIGIENDO PUNTOS DE QUIEBRE 600PX */
+@media screen and (max-width: 600px) {
+    /* HEADER */
+header{
+    width: 100%;
+}
+/* ELEMENTOS */
+/* NAV */
+header nav{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+/* ELEMENTOS */
+header nav img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+/* NAV + SECTION */
+header nav + section{
+    width: 100%;
+    padding: 3.5rem 0;
+}
+/* ELEMENTOS */
+header nav + section label{
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+ 
+}
+header nav + section p{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+header nav + section p b{
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+}
+/* MAIN */
+main{
+    width: 100%;
+    height: 50vh;
+    padding-left: 1rem;
+    background-image: url(../img/fashion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+/* ELEMENTOS */
+main > label{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+main p label{
+    color: white;
+    font-size: 5rem;
+    font-family: 'Road Rage', cursive;
+}
+/* BOTON */
+main div a{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.459);
+    font-size: 1.5rem;
+}
+/* MODIFICADOR */
+main div a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+/* ULTIMO SECTION */
+main + section{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    padding: 2rem;
+}
+/* ELEMENTOS */
+/* ARTICLE */
+main + section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 2rem;
+}
+/* ELEMENTOS */ 
+main + section article label{
+    font-size: 3rem;
+}
+main + section article img{
+    margin: 2rem 0;
+    width: 400px;
+    height: 300px;
+}
+main + section article section{
+    width: 400px;
+}
+main + section article p{
+    text-align:justify;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+main + section article section p:last-child{
+    margin-bottom: 3rem;
+}
+}
+/* CORRIGIENDO PUNTOS DE QUIEBRE 500PX */
+@media screen and (max-width: 500px) {
+    /* HEADER */
+header{
+    width: 100%;
+}
+/* ELEMENTOS */
+/* NAV */
+header nav{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+/* ELEMENTOS */
+header nav img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+/* NAV + SECTION */
+header nav + section{
+    width: 100%;
+    padding: 2rem 0;
+}
+/* ELEMENTOS */
+header nav + section label{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+ 
+}
+header nav + section p{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+header nav + section p b{
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+}
+/* MAIN */
+main{
+    width: 100%;
+    height: 40vh;
+    padding-left: 1rem;
+    background-image: url(../img/fashion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+/* ELEMENTOS */
+main > label{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+main p label{
+    color: white;
+    font-size: 4rem;
+    font-family: 'Road Rage', cursive;
+}
+/* BOTON */
+main div a{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.459);
+    font-size: 1rem;
+}
+/* MODIFICADOR */
+main div a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+/* ULTIMO SECTION */
+main + section{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    padding: 2rem;
+}
+/* ELEMENTOS */
+/* ARTICLE */
+main + section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 2rem;
+}
+/* ELEMENTOS */ 
+main + section article label{
+    font-size: 2rem;
+}
+main + section article label + p{
+    font-size: 0.9rem;
+    margin: 0%;
+}
+main + section article img{
+    margin: 2rem 0;
+    width: 300px;
+    height: 200px;
+}
+main + section article section{
+    width: 300px;
+}
+main + section article p{
+    text-align:justify;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+main + section article section p:last-child{
+    margin-bottom: 3rem;
+}
+}
+/* CORRIGIENDO PUNTOS DE QUIEBRE 425PX */
+@media screen and (max-width: 425px) {
+    /* HEADER */
+header{
+    width: 100%;
+}
+/* ELEMENTOS */
+/* NAV */
+header nav{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    display: none;
+}
+/* ELEMENTOS */
+header nav img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+/* NAV + SECTION */
+header nav + section{
+    width: 100%;
+    padding: 2rem 0;
+}
+/* ELEMENTOS */
+header nav + section label{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+ 
+}
+header nav + section p{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+header nav + section p b{
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+}
+/* MAIN */
+main{
+    width: 100%;
+    height: 40vh;
+    padding-left: 1rem;
+    background-image: url(../img/fashion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+/* ELEMENTOS */
+main > label{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 1rem;
+}
+main p label{
+    color: white;
+    font-size: 4rem;
+    font-family: 'Road Rage', cursive;
+    display: none;
+}
+/* BOTON */
+main div a{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0.5rem 1.5rem;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.459);
+    font-size: 1rem;
+}
+/* MODIFICADOR */
+main div a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+/* ULTIMO SECTION */
+main + section{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    padding: 2rem;
+}
+/* ELEMENTOS */
+/* ARTICLE */
+main + section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 2rem;
+}
+/* ELEMENTOS */ 
+main + section article label{
+    font-size: 2rem;
+}
+main + section article label + p{
+    font-size: 0.9rem;
+    margin: 0%;
+}
+main + section article img{
+    margin: 2rem 0;
+    width: 300px;
+    height: 200px;
+}
+main + section article section{
+    width: 300px;
+}
+main + section article p{
+    text-align:justify;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+main + section article section p:last-child{
+    margin-bottom: 3rem;
+}
+}
